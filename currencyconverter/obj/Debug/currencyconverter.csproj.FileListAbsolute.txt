@@ -10,3 +10,9 @@ D:\3\currencyconverter\currencyconverter\obj\Debug\currencyconverter.csprojAssem
 D:\3\currencyconverter\currencyconverter\obj\Debug\currencyconverter.csproj.CoreCompileInputs.cache
 D:\3\currencyconverter\currencyconverter\obj\Debug\currencyconverter.dll
 D:\3\currencyconverter\currencyconverter\obj\Debug\currencyconverter.pdb
+D:\4\currencyconverter\currencyconverter\bin\Debug\currencyconverter.dll
+D:\4\currencyconverter\currencyconverter\bin\Debug\currencyconverter.pdb
+D:\4\currencyconverter\currencyconverter\obj\Debug\currencyconverter.csprojAssemblyReference.cache
+D:\4\currencyconverter\currencyconverter\obj\Debug\currencyconverter.csproj.CoreCompileInputs.cache
+D:\4\currencyconverter\currencyconverter\obj\Debug\currencyconverter.dll
+D:\4\currencyconverter\currencyconverter\obj\Debug\currencyconverter.pdb

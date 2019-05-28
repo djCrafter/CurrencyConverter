@@ -13,13 +13,15 @@ namespace UnitTest
         private IAuthorizationInteractor _interactor;
         private Mock<IAuthSender> _sender;
         private Mock<IValidator> _validator;
+        private Mock<IValidator> _passwordValidator;
 
         [SetUp]
         public void SetUp()
         {
+            _passwordValidator = new Mock<IValidator>(MockBehavior.Strict);
             _validator = new Mock<IValidator>(MockBehavior.Strict);
             _sender = new Mock<IAuthSender>(MockBehavior.Strict);
-            _interactor = new AuthorizationInteractor(_validator.Object, _sender.Object);
+            _interactor = new AuthorizationInteractor(_validator.Object, _passwordValidator.Object, _sender.Object);
         }
 
         [Test]
@@ -49,18 +51,29 @@ namespace UnitTest
         {
             var exception = Assert.Throws<ArgumentNullException>(() =>
             {
-                _interactor = new AuthorizationInteractor(null, _sender.Object);
+                _interactor = new AuthorizationInteractor(null, _passwordValidator.Object, _sender.Object);
             });
             
             Assert.AreEqual("loginValidator", exception.ParamName);
         }
-        
+
+        [Test]
+        public void CtorPasswordValidatorNullTest()
+        {
+            var exception = Assert.Throws<ArgumentNullException>(() =>
+            {
+                _interactor = new AuthorizationInteractor(_validator.Object, null, _sender.Object);
+            });
+
+            Assert.AreEqual("passwordValidator", exception.ParamName);
+        }
+
         [Test]
         public void CtorAuthSenderNullTest()
         {
             var exception = Assert.Throws<ArgumentNullException>(() =>
             {
-                _interactor = new AuthorizationInteractor(_validator.Object, null);
+                _interactor = new AuthorizationInteractor(_validator.Object, _passwordValidator.Object, null);
             });
             
             Assert.AreEqual("authSender", exception.ParamName);
@@ -73,8 +86,11 @@ namespace UnitTest
             //Given
             var login = "login";
             var pass = "pass";
+
             _validator.Setup(f => f.Validate(login))
                 .Returns(true);
+            _passwordValidator.Setup(f => f.Validate(pass))
+              .Returns(true);
             _sender.Setup(f => f.SendAuthRequest(login, pass))
                 .Returns(Task.FromResult(senderResult));
             
@@ -83,25 +99,33 @@ namespace UnitTest
 
             //Then
             _validator.Verify(f => f.Validate(login), Times.Once);
+            _passwordValidator.Verify(f => f.Validate(pass), Times.Once);
             _sender.Verify(f => f.SendAuthRequest(login, pass));
             Assert.AreEqual(expected, actual);
         }
 
-        [Test]
-        public async Task LoginTest_InvalidLogin()
+        [TestCase(false, true)]
+        [TestCase(false, false)]
+        [TestCase(true, false)]  
+        public async Task LoginTest_InvalidLoginOrPassword(bool loginValid, bool passwordValid)
         {
             //Given
-            var login = "invalid_string";
-            var pass = "pass";
+            var login = "invalid_login";
+            var pass = "invalid_pass";
+
             var expected = EAuthResult.InvalidData;
+
             _validator.Setup(f => f.Validate(login))
-                .Returns(false);
-            
+                .Returns(loginValid);
+            _passwordValidator.Setup(f => f.Validate(pass))
+                .Returns(passwordValid);
+
             //When
             var actual = await _interactor.Login(login, pass);
 
             //Then
             _validator.Verify(f => f.Validate(login), Times.Once);
+            _passwordValidator.Verify(f => f.Validate(pass), Times.Once);
             Assert.AreEqual(expected, actual);
         }
     }

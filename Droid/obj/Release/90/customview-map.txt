@@ -1,0 +1,6 @@
+Button;obj\Release\90\res\layout\main.xml
+EditText;obj\Release\90\res\layout\main.xml
+LinearLayout;obj\Release\90\res\layout\main.xml
+resources;obj\Release\90\res\values\strings.xml
+string;obj\Release\90\res\values\strings.xml
+TextView;obj\Release\90\res\layout\main.xml

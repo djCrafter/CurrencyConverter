@@ -5992,11 +5992,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\3\\currencyconverter\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "D:\\4\\currencyconverter\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "D:\\3\\currencyconverter\\UnitTest\\UnitTest.csproj",
+      "projectPath": "D:\\4\\currencyconverter\\UnitTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\Crafter\\.nuget\\packages\\",
-      "outputPath": "D:\\3\\currencyconverter\\UnitTest\\obj\\",
+      "outputPath": "D:\\4\\currencyconverter\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6017,8 +6017,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\3\\currencyconverter\\currencyconverter\\currencyconverter.csproj": {
-              "projectPath": "D:\\3\\currencyconverter\\currencyconverter\\currencyconverter.csproj"
+            "D:\\4\\currencyconverter\\currencyconverter\\currencyconverter.csproj": {
+              "projectPath": "D:\\4\\currencyconverter\\currencyconverter\\currencyconverter.csproj"
             }
           }
         }

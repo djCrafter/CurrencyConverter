@@ -1,0 +1,16 @@
+D:\4\currencyconverter\iOS\bin\iPhoneSimulator\Debug\currencyconverter.iOS.exe
+D:\4\currencyconverter\iOS\bin\iPhoneSimulator\Debug\currencyconverter.iOS.pdb
+D:\4\currencyconverter\iOS\bin\iPhoneSimulator\Debug\currencyconverter.dll
+D:\4\currencyconverter\iOS\bin\iPhoneSimulator\Debug\currencyconverter.pdb
+D:\4\currencyconverter\iOS\bin\iPhoneSimulator\Debug\currencyconverter.dll.mdb
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\optimized\
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\currencyconverter.iOS.csprojAssemblyReference.cache
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\currencyconverter.iOS.csproj.CoreCompileInputs.cache
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\currencyconverter.iOS.csproj.CopyComplete
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\currencyconverter.iOS.exe
+D:\4\currencyconverter\iOS\obj\iPhoneSimulator\Debug\currencyconverter.iOS.pdb

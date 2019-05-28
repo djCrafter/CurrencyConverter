@@ -20,7 +20,7 @@ namespace currencyconverter.AuthorizationModule
         public async Task<EAuthResult> Login(string login, string pass)
         {
             EAuthResult res;
-            if (!_loginValidator.Validate(login) && !_passwordValidator.Validate(pass))
+            if (!_loginValidator.Validate(login) | !_passwordValidator.Validate(pass))
             {
                 res = EAuthResult.InvalidData;
             }

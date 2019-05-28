@@ -21,7 +21,7 @@ namespace currencyconverter.AuthorizationModule
         {
             if (login == this.login && pass == this.pass)
                 return true;
-
+       
             return false;
         }
     }

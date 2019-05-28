@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3\\currencyconverter\\UnitTest\\UnitTest.csproj": {}
+    "D:\\4\\currencyconverter\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\3\\currencyconverter\\currencyconverter\\currencyconverter.csproj": {
+    "D:\\4\\currencyconverter\\currencyconverter\\currencyconverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3\\currencyconverter\\currencyconverter\\currencyconverter.csproj",
+        "projectUniqueName": "D:\\4\\currencyconverter\\currencyconverter\\currencyconverter.csproj",
         "projectName": "currencyconverter",
-        "projectPath": "D:\\3\\currencyconverter\\currencyconverter\\currencyconverter.csproj"
+        "projectPath": "D:\\4\\currencyconverter\\currencyconverter\\currencyconverter.csproj"
       },
       "frameworks": {
         "portable45-net45+win8+wpa81": {}
       }
     },
-    "D:\\3\\currencyconverter\\UnitTest\\UnitTest.csproj": {
+    "D:\\4\\currencyconverter\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3\\currencyconverter\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "D:\\4\\currencyconverter\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "D:\\3\\currencyconverter\\UnitTest\\UnitTest.csproj",
+        "projectPath": "D:\\4\\currencyconverter\\UnitTest\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\Crafter\\.nuget\\packages\\",
-        "outputPath": "D:\\3\\currencyconverter\\UnitTest\\obj\\",
+        "outputPath": "D:\\4\\currencyconverter\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,8 +43,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "D:\\3\\currencyconverter\\currencyconverter\\currencyconverter.csproj": {
-                "projectPath": "D:\\3\\currencyconverter\\currencyconverter\\currencyconverter.csproj"
+              "D:\\4\\currencyconverter\\currencyconverter\\currencyconverter.csproj": {
+                "projectPath": "D:\\4\\currencyconverter\\currencyconverter\\currencyconverter.csproj"
               }
             }
           }
