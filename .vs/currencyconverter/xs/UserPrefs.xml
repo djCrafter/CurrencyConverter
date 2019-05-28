@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{5DFD3338-DA90-4CCF-810F-5551A70FC9BA}|Default">
+  <MonoDevelop.Ide.ItemProperties.currencyconverter FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.currencyconverter.Droid FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.currencyconverter.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A2F7ABEA-0112-46C7-BDB8-30D630F7C2B5">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.currencyconverter.iOS>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="currencyconverter" expanded="True">
+            <Node name="currencyconverter" expanded="True" />
+            <Node name="UnitTest" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="currencyconverter" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UnitTest FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

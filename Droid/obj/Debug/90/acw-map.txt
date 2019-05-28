@@ -1,0 +1,3 @@
+currencyconverter.Droid.MainActivity, currencyconverter.Droid;md53ea137a7f08c791d4a1a4b2f4d8a7b15.MainActivity
+currencyconverter.Droid.MainActivity;md53ea137a7f08c791d4a1a4b2f4d8a7b15.MainActivity
+currencyconverter.droid.MainActivity;md53ea137a7f08c791d4a1a4b2f4d8a7b15.MainActivity
